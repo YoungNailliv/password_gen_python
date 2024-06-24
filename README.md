@@ -6,7 +6,8 @@ Para utilizar el generador de contraseñas, puedes ejecutarlo de la siguiente ma
 python3 pass_gen.py
 ```
 
-O puedes ejecutar el binario ubicado en la carpeta `dist`, compilado específicamente para Linux. Puedes compilarlo para tu sistema operativo utilizando [PyInstaller](https://pyinstaller.org/en/stable/index.html).
+Puedes compilarlo para tu sistema operativo utilizando [PyInstaller](https://pyinstaller.org/en/stable/index.html).
+ En mi caso ejecutarlo como:
 
 ```bash
 ./pass_gen
