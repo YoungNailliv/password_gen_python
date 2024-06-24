@@ -12,7 +12,7 @@ password = ""
 caracters_allow = ""
 
 try:
-    if '-' in sys.argv[1]:
+    if sys.argv[1].startswith('-'):
         arguments = sys.argv[1]
         if 'l' in arguments:
             caracters_allow += min_letters + mayus_letters
